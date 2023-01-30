@@ -1,0 +1,44 @@
+.wpcf7 form .wpcf7-response-output {
+    margin: 1rem 0 !important;
+    border-radius: .25rem;
+    padding: 10px 20px;
+    border: none !important;
+}
+ 
+.wpcf7 form.init .wpcf7-response-output {
+    display: none;
+}
+ 
+.wpcf7 form.sent .wpcf7-response-output {
+    background-color: var(--bs-success); /* Green */
+    color: white;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+    background-color: var(--bs-danger); /* Red */
+    color: white;
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+    background-color: #f56e28; /* Orange */
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    background-color: var(--bs-warning); /* Yellow */
+}
+
+.wpcf7-not-valid-tip {
+    color: var(--bs-danger);
+    margin-top: 5px;
+}
+
+.wpcf7-not-valid {
+    border-radius: .25rem;
+    border: solid 1px var(--bs-danger) !important;
+}
+
+label[for] {
+    cursor: pointer;
+}

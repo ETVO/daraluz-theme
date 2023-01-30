@@ -1,0 +1,26 @@
+<div class="mb-3">
+    <label for="nome"> Nome </label>
+    [text* nome class:form-control id:nome]
+</div>
+
+<div class="mb-3">
+    <label for="email"> E-mail </label>
+    [email* email class:form-control id:email]
+</div>
+
+<div class="mb-3">
+    <label for="tel"> Telefone (com DDD) </label>
+    [tel tel class:form-control id:tel]
+</div>
+
+<div class="mb-3">
+    <label for="situacao"> Você: </label>
+    [radio situacao id:situacao class:form-check use_label_element "está grávida" "quer ser doula" "outro"]
+</div>
+
+<div class="mb-3">
+    <label for="mensagem"> Sua mensagem </label>
+    [textarea mensagem class:form-control id:mensagem rows:3]
+</div>
+
+<button class="btn btn-accent" type="submit">Enviar</button>

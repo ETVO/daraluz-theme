@@ -1,0 +1,24 @@
+$primary: #DE4A04;
+$dark: #000;
+$light: #fff;
+$secondary: #444;
+
+$line-height-base: 1.25;
+$line-height-sm: 1.25;
+$line-height-lg: 1.5;
+
+$headings-font-weight: 700;
+$headings-color: $dark;
+
+$body-bg: $light;
+$body-color: $dark;
+$link-color: $dark;
+
+$carousel-transition-duration: 1s;
+
+$headings-font-family: 'Barlow', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !default;
+$font-family-base: 'Barlow';
+
+@import "~bootstrap/scss/bootstrap";
+
+$lead-font-size: $font-size-base * 1.25;
